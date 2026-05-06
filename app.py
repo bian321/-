@@ -7,7 +7,7 @@ st.set_page_config(page_title="بوت المحقق الذكي (Gemini)", page_ic
 
 # --- ربط مفتاح Google Gemini ---
 # ملاحظة: استبدل 'YOUR_API_KEY' بمفتاحك الحقيقي أو استخدم st.secrets
-genai.configure(api_key="AIzaSyBfBDLC0wtKj40JePHvavZitCcM6rZ9Ft8")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini')
 
 # --- وظيفة توليد القضية ---
